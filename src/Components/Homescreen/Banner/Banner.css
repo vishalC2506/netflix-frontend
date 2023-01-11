@@ -1,0 +1,57 @@
+
+.Banner_main {
+    width: 100%;
+    min-height: 60vh;
+    object-fit: contain;
+    color: rgb(252, 252, 251);
+ 
+}
+
+.Banner_main-container {
+    width: 28rem;  
+    padding-top:12rem;
+    padding-left: 5rem;
+
+    
+    
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+h4{
+    line-height: 1.2rem;
+}
+
+.Banner_main-container-button {
+    width: 15rem;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.Banner_button {
+    border-radius: 0.5rem;
+    width: 5rem;
+    min-height: 2rem;
+    margin-bottom: 0.5rem;
+    transition: ease-in 0.5s;
+    cursor: pointer;
+    background-color: rgba(60, 54, 54,0.5);
+}
+
+.Banner_button:hover {
+    transform: scale(1.2);
+    background-color: rgb(241, 150, 46);
+    font-weight: bolder;
+    box-shadow: 0.5rem 0.5rem 0.5rem;
+    border: 0.2rem solid black;
+}
+
+.bottom_div {
+   padding-top: 10rem;
+    background-image: linear-gradient(to bottom, transparent, rgb(28, 24, 24));
+    min-height: 7.4rem;
+}

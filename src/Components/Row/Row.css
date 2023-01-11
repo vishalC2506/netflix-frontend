@@ -1,0 +1,40 @@
+.Row {
+  margin-top: 15px;
+  color: azure;
+  
+  margin-left: 1.2rem;
+  width: 98%;
+}
+
+.row_posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 1.2rem;
+
+}
+
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row_poster {
+  max-height: 6.2rem;
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
+  object-fit: contain;
+  transition: transform 450ms;
+
+}
+.row_poster:hover{
+  transform: scale(1.08);
+  opacity: 1;
+}
+.row_posterLarge{
+  max-height:15.2rem ;
+}
+
+.row_posterLarge:hover{
+  transform: scale(1.09);
+  opacity: 1;
+}

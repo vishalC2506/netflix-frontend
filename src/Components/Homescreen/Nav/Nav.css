@@ -1,0 +1,60 @@
+.Navbar_main-transparent {
+    width: 100vw;
+    height: 2rem;
+    top:0;
+    position: fixed;   
+   
+
+
+}
+.nav__contents{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.nav_black {
+    width: 100vw;
+    position: fixed;
+    background-color: black;
+    height: 4rem;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.Navbar_main-image {
+    width: 7rem;
+    height: 4rem;
+    cursor: pointer;
+    position: fixed;
+    z-index: 1000000;
+    left: 2rem;
+    transition: ease-in 0.5s;
+
+}
+
+.Navbar_main-SignOut {
+    height: 2rem;
+    width: 5rem;
+    z-index: 10000;
+   position: fixed;
+    margin-top: 1.50%;
+   right: 1.62rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: ease-in 0.5s;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgb(236, 40, 40);
+}
+
+.Navbar_main-image:hover {
+    transform: scale(1.09);
+}
+
+.Navbar_main-SignOut:hover {
+    transform: scale(1.09);
+    box-shadow: 0.2rem 0.2rem 0.8rem;
+    background-color: red;
+    color: white;
+}
