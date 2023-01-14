@@ -16,7 +16,7 @@ const Nav = () => {
   }, []);
   return (
     <>
-      <nav className={`Navbar_main-transparent  ${show && "nav_black"}`}>
+      <div className={`Navbar_main-transparent  ${show && "nav_black"}`}>
       <div className="nav__contents">
         <img
           onClick={() => history("/")}
@@ -28,7 +28,7 @@ const Nav = () => {
           Sign Out
         </button>
         </div>
-      </nav>
+      </div>
     </>
   );
 };

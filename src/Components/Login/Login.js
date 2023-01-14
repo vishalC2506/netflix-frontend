@@ -20,7 +20,7 @@ const Login = () => {
             <SignUpScreen />
           ) : (
             <>
-              <h1>Unlimited films,Tv Program and more</h1>
+              <h1 className="h1">Unlimited films,Tv Program and more</h1>
               <h2>Watch anywhere. Cancel at any time</h2>
               <h3>
                 Ready to watch? Enter your mail to create or restart your

@@ -1,28 +1,29 @@
 
 .Banner_main {
-    width: 100%;
+    width: 100vw;
     min-height: 60vh;
     object-fit: contain;
     color: rgb(252, 252, 251);
+    margin-top: -2rem;
  
 }
 
 .Banner_main-container {
-    width: 28rem;  
-    padding-top:12rem;
-    padding-left: 5rem;
-
     
+    padding-top:15rem;
+    padding-left: 1rem;
+
+    min-width:19.06rem ;
     
 }
 
-h1 {
+.Banner_main-container>h1 {
     font-weight: bolder;
     font-size: 3rem;
     margin-bottom: 1rem;
 }
-h4{
-    line-height: 1.2rem;
+.Banner_main-container h4{
+    line-height: 0.8rem;
 }
 
 .Banner_main-container-button {
@@ -51,7 +52,17 @@ h4{
 }
 
 .bottom_div {
-   padding-top: 10rem;
+   padding-top: 11rem;
     background-image: linear-gradient(to bottom, transparent, rgb(28, 24, 24));
     min-height: 7.4rem;
+}
+
+@media(max-width:32.5rem){
+    .Banner_main-container>h1{
+        font-size: 2rem;
+    }
+    .Banner_main-container h4{
+        color: red;
+        font-size: 1rem;
+    }
 }

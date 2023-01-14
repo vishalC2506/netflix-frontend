@@ -30,7 +30,7 @@ const Banner = () => {
             "https://image.tmdb.org/t/p/original/${movie?.backdrop_path}"
           )`,
 
-          backgroundPosition: "",
+          backgroundPosition: "center center ",
         }}
       >
         <div className="Banner_main-container">

@@ -1,9 +1,9 @@
 .Row {
   margin-top: 15px;
   color: azure;
-  
+  margin-right: 1rem;
   margin-left: 1.2rem;
-  width: 98%;
+  width: 98vw;
 }
 
 .row_posters {
