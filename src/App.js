@@ -1,4 +1,4 @@
-import React, { useEffect, useReducer } from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import Homscreen from "./Components/Homescreen/Homscreen";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
